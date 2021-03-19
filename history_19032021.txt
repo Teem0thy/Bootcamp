@@ -1,0 +1,374 @@
+    1  cd app
+    2  ssh -i "redteam_key.pem" centos@ec2-54-229-198-138.eu-west-1.compute.amazonaws.com
+    3  cd app
+    4  ssh -i "redteam_key.pem" centos@ec2-54-229-198-138.eu-west-1.compute.amazonaws.com
+    5  cd app
+    6  ssh -i "redteam_key.pem" centos@ec2-54-229-198-138.eu-west-1.compute.amazonaws.com
+    7  docker run -d -p 80:80 docker/getting-started
+    8  cd app
+    9  touch Dockerfile
+   10  ls
+   11  vi Dockerfile
+   12  vi src/static/js/app.js
+   13  docker build -t getting-started .
+   14  docker run -dp 3000:3000 getting-started
+   15  docker ps
+   16  docker rm -f cd7a57ecc6c9
+   17  docker image
+   18  docker image ls
+   19  docker rmi b95aef93e14d
+   20  docker build -t getting-started .
+   21  docker run -dp 3000:3000 getting-started
+   22  docker ps
+   23  ssh -i "redteam_key.pem" centos@ec2-54-229-198-138.eu-west-1.compute.amazonaws.com
+   24  sudo chmod 606 redtem_key.pem
+   25  ls -all
+   26  ssh -i "redteam_key.pem" centos@ec2-54-229-198-138.eu-west-1.compute.amazonaws.com
+   27  sudo chmod 777 redtem_key.pem
+   28  ssh -i "redteam_key.pem" centos@ec2-54-229-198-138.eu-west-1.compute.amazonaws.com
+   29  sudo chmod 666 redtem_key.pem
+   30  sudo chmod 666 redteam_key.pem
+   31  ls -all
+   32  ssh -i "redteam_key.pem" centos@ec2-54-229-198-138.eu-west-1.compute.amazonaws.com
+   33  chmod 400 redteam_key.pem
+   34  ls -all
+   35  ssh -i "redteam_key.pem" centos@ec2-54-229-198-138.eu-west-1.compute.amazonaws.com
+   36  cd app
+   37  ssh -i "redteam_key.pem" centos@ec2-54-229-198-138.eu-west-1.compute.amazonaws.com
+   38  cd app
+   39  ssh -i "redteam_key.pem" centos@ec2-54-229-198-138.eu-west-1.compute.amazonaws.com
+   40  cd app
+   41  ssh -i "redteam_key.pem" centos@ec2-54-229-198-138.eu-west-1.compute.amazonaws.com
+   42  cd app
+   43  ssh -i "redteam_key.pem" centos@ec2-54-229-198-138.eu-west-1.compute.amazonaws.com
+   44  cd app
+   45  ssh -i "redteam_key.pem" centos@ec2-54-229-198-138.eu-west-1.compute.amazonaws.com
+   46  cd app
+   47  ssh -i "redteam_key.pem" centos@ec2-54-229-198-138.eu-west-1.compute.amazonaws.com
+   48  cd app
+   49  ssh -i "redteam_key.pem" centos@ec2-54-229-198-138.eu-west-1.compute.amazonaws.com
+   50  ls -r -all
+   51  echo "Hat is your name?"
+   52  echo "What is your name?"
+   53  read PERSON
+   54  $./test.sh
+   55  What is your name?
+   56  Zara Ali
+   57  Hello, Zara Ali
+   58  $$./test.sh
+   59  What is your name?
+   60  Zara Ali
+   61  Hello, Zara Ali
+   62  $./test.sh
+   63  What is your name?
+   64  Zara Ali
+   65  echo "Hello, $PERSON"
+   66  read PERSON
+   67  echo "Hello, $PERSON"
+   68  date
+   69  date PS1
+   70  echo $0
+   71  ls -sll
+   72  ls -all
+   73  cd ..
+   74  ls -all
+   75  cd ..
+   76  ls -all
+   77  cd bin
+   78  ls -all
+   79  #!/bin/bash
+   80  pwd
+   81  ls
+   82  cd ~
+   83  touch test.sh
+   84  ls -all
+   85  vim test.sh 
+   86  chmod +x test.sh 
+   87  ./test.sh 
+   88  ls
+   89  who
+   90  whoami
+   91  A=100
+   92  echo $A
+   93  echo $0
+   94  echo $1
+   95  echo $2
+   96  echo $#
+   97  ./test.sh Zara Ali
+   98  ls -all
+   99  ls -ll
+  100  ls
+  101  ls -l
+  102  cal
+  103  for i in 11 22; do echo Hello; done
+  104  A=33
+  105  echo $A
+  106  > test.sh
+  107  vim test.sh 
+  108  ls -al
+  109  vim test.sh 
+  110  echo test.sh 
+  111  vim test.sh 
+  112  if [true]; then echo hello; fi
+  113  if [ true ]; then echo hello; fi
+  114  if [ 4 > 3 ]; then echo hello; fi
+  115  nano
+  116  vim
+  117  ls -al
+  118  chmod 744 test_script.sh 
+  119  ls -al
+  120  cd app
+  121  ls -al
+  122  cd ../
+  123  chmod --help
+  124  chmod =rwx | +x | +x test_script.
+  125  chmod =rwx  +x  +x test_script.sh 
+  126  chmod =rwxrwxrwx test_script.sh 
+  127  ls -al
+  128  chmod 744 test_script.sh 
+  129  ls -al
+  130  chmod =rwxrwxrwx test_script.sh 
+  131  ls -al
+  132  chmod 744 test_script.sh 
+  133  ls -al
+  134  chmod u=rwx,g=r,o=rx test_script.sh 
+  135  ls -al
+  136  echo $PATH
+  137  PATH=:~
+  138  echo $PATH
+  139  PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04onWindows_2004.2021.222.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/f/Oculus/Support/oculus-runtime:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/itimo/AppData/Local/Microsoft/WindowsApps:/snap/bin
+  140  PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04onWindows_2004.2021.222.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/f/Oculus/Support/oculus-runtime:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/'Program Files (x86)'/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/itimo/AppData/Local/Microsoft/WindowsApps:/snap/bin
+  141  PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/'Program Files'/WindowsApps/CanonicalGroupLimited.Ubuntu20.04onWindows_2004.2021.222.0_x64__79rhkp1fndgsc:/mnt/c/'Program Files (x86)'/Common Files/Oracle/Java/javapath:/mnt/f/Oculus/Support/oculus-runtime:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/'Program Files (x86)'/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/itimo/AppData/Local/Microsoft/WindowsApps:/snap/bin
+  142  PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/'Program Files'/WindowsApps/CanonicalGroupLimited.Ubuntu20.04onWindows_2004.2021.222.0_x64__79rhkp1fndgsc:/mnt/c/'Program Files (x86)'/'Common Files'/Oracle/Java/javapath:/mnt/f/Oculus/Support/oculus-runtime:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/'Program Files (x86)'/'NVIDIA Corporation'/PhysX/Common:/mnt/c/'Program Files'/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/itimo/AppData/Local/Microsoft/WindowsApps:/snap/bin
+  143  echo $PATH
+  144  PATH=$PATH:~
+  145  echo $PATH
+  146  test_script.sh
+  147  ls -al
+  148  date
+  149  exit
+  150  echo $0
+  151  echo $?
+  152  ls -sl
+  153  ls -al
+  154  nano test.sh 
+  155  cat test.sh 
+  156  ls -al
+  157  ./test.sh 
+  158  vim test.sh 
+  159  ./test.sh 
+  160  NAME01="Zara"
+  161  NAME02="Qadir"
+  162  NAME03="Mahnaz"
+  163  NAME04="Ayan"
+  164  NAME05="Daisy"
+  165  ./test.sh 
+  166  $NAME
+  167  $NAME03
+  168  cat $NAME03
+  169  echo $NAME03
+  170  echo $NAME02
+  171  echo $NAME[2]
+  172  sh echo $NAME[2]
+  173  sh echo NAME[2]
+  174  sh echo ${NAME[2]}
+  175  ./test.sh 
+  176  vim test.sh 
+  177  ./test.sh 
+  178  echo $PATH
+  179  sh ./test.sh 
+  180  vim test.sh 
+  181  ./test.sh 
+  182  mv test.sh  array_test.sh
+  183  ls -al
+  184  cat test_script.sh
+  185  touch Test_loop.sh
+  186  chmod 744 Test_loop.sh 
+  187  vim Test_loop.sh 
+  188  ./Test_loop.sh 
+  189  cat test_script.sh
+  190  ls -al
+  191  touch Test_Loop2.sh
+  192  chmod 744 Test_Loop2.sh 
+  193  vim Test_Loop2.sh 
+  194  ./Test_Loop2.sh 
+  195  cat Test_Loop2.sh 
+  196  ls -l
+  197  rm test_script.sh
+  198  ls -l
+  199  touch Test_Loop3.sh
+  200  nano Test_Loop3.sh 
+  201  ./Test_Loop3.sh 
+  202  chmod 744 Test_Loop3.sh 
+  203  ./Test_Loop3.sh 
+  204  script log.log
+  205  cat log.log 
+  206  ls -l
+  207  touch Test_DecToBin.sh
+  208  chmod 744 Test_DecToBin.sh 
+  209  nano Test_DecToBin.sh 
+  210  ./Test_DecToBin.sh 
+  211  nano Test_DecToBin.sh 
+  212  ./Test_DecToBin.sh 
+  213  nano Test_DecToBin.sh 
+  214  ./Test_DecToBin.sh 
+  215  nano Test_DecToBin.sh 
+  216  ./Test_DecToBin.sh 
+  217  nano Test_DecToBin.sh 
+  218  echo DEC
+  219  echo $DEC
+  220  echo expr` 4 / 2`
+  221  echo expr ` 4 / 2 `
+  222  echo `expr 4 / 2 `
+  223  nano Test_DecToBin.sh 
+  224  ./Test_DecToBin.sh 
+  225  nano Test_DecToBin.sh 
+  226  echo 2 +3
+  227  echo (2 + 3)
+  228  echo ((2 + 3))
+  229  nano Test_DecToBin.sh 
+  230  echo `expr 2 + `expr 5 % 2``
+  231  echo `expr (2 + `expr 5 % 2`)`
+  232  echo `expr 2 + (`expr 5 % 2`)`
+  233  echo `expr 2 + `expr 5 % 2` `
+  234  echo `expr 2 + 5 % 2`
+  235  nano Test_DecToBin.sh 
+  236  T=5
+  237  B=8
+  238  T= $T`expr $B / 2`
+  239  T= $T `expr $B / 2`
+  240  T= "$T`expr $B / 2`"
+  241  T= "$T `expr $B / 2`"
+  242  T = $T `expr $B / 2`
+  243  T=$T `expr $B / 2`
+  244  T= $T`expr $B / 2`
+  245  echo $T
+  246  nano Test_DecToBin.sh 
+  247  y
+  248  T="$T$B"
+  249  echo $T
+  250  T="$T$B/2"
+  251  echo $T
+  252  T="$T`expr$B/2`"
+  253  nano Test_DecToBin.sh 
+  254  T=5
+  255  t= "$T"`expr $B / 2`
+  256  T= "$T" `expr $B / 2`
+  257  T= B
+  258  T= $B
+  259  T = $B
+  260  echo $B
+  261  T = "$B"
+  262  T= $B
+  263  T=$B
+  264  T="$T`expr $B /2`"
+  265  T="$T`expr $B / 2`"
+  266  echo $T
+  267  T="$T`expr $B / 2`"
+  268  echo $T
+  269  nano Test_DecToBin.sh 
+  270  T=$T`expr $B / 2`
+  271  echo $T
+  272  nano Test_DecToBin.sh 
+  273  ./Test_DecToBin.sh 
+  274  nano Test_DecToBin.sh 
+  275  echo "something:$T"
+  276  nano Test_DecToBin.sh 
+  277  ./Test_DecToBin.sh 
+  278  nano Test_DecToBin.sh 
+  279  ./Test_DecToBin.sh 
+  280  nano Test_DecToBin.sh 
+  281  ./Test_DecToBin.sh 
+  282  nano Test_DecToBin.sh 
+  283  ./Test_DecToBin.sh 
+  284  nano Test_DecToBin.sh 
+  285  ./Test_DecToBin.sh 
+  286  nano Test_DecToBin.sh 
+  287  ./Test_DecToBin.sh 
+  288  nano Test_DecToBin.sh 
+  289  unset T
+  290  echo $T
+  291  unset B
+  292  nano Test_DecToBin.sh 
+  293  python
+  294  python3
+  295  nano Test_DecToBin.sh 
+  296  ./Test_DecToBin.sh 
+  297  nano Test_DecToBin.sh 
+  298  ./Test_DecToBin.sh 
+  299  echo $COUNT
+  300  nano Test_DecToBin.sh 
+  301  ./Test_DecToBin.sh 
+  302  echo $COUNT
+  303  nano Test_DecToBin.sh 
+  304  ./Test_DecToBin.sh 
+  305  nano Test_DecToBin.sh 
+  306  ./Test_DecToBin.sh 
+  307  nano Test_DecToBin.sh 
+  308  ./Test_DecToBin.sh 
+  309  nano Test_DecToBin.sh 
+  310  ./Test_DecToBin.sh 
+  311  nano Test_DecToBin.sh 
+  312  cp ./Test_DecToBin.sh ./Test_DecToBin_Complete.sh
+  313  ls -l
+  314  nano Test_DecToBin_complete.sh 
+  315  ls -l
+  316  nano Test_DecToBin_Complete.sh 
+  317  ./Test_DecToBin_Complete.sh 
+  318  nano Test_DecToBin_Complete.sh 
+  319  ./Test_DecToBin_Complete.sh 
+  320  nano Test_DecToBin_Complete.sh 
+  321  ./Test_DecToBin_Complete.sh 
+  322  nano Test_DecToBin_Complete.sh 
+  323  ./Test_DecToBin_Complete.sh 
+  324  nano Test_DecToBin_Complete.sh 
+  325  ./Test_DecToBin_Complete.sh 
+  326  nano Test_DecToBin_Complete.sh 
+  327  ./Test_DecToBin_Complete.sh 
+  328  nano Test_DecToBin_Complete.sh 
+  329  ./Test_DecToBin_Complete.sh 
+  330  nano Test_DecToBin_Complete.sh 
+  331  ./Test_DecToBin_Complete.sh 
+  332  nano Test_DecToBin_Complete.sh 
+  333  ./Test_DecToBin_Complete.sh 
+  334  nano Test_DecToBin_Complete.sh 
+  335  ./Test_DecToBin_Complete.sh 
+  336  nano Test_DecToBin_Complete.sh 
+  337  ./Test_DecToBin_Complete.sh 
+  338  git
+  339  git clone https://github.com/Temofejs/Bootcamp/tree/main
+  340  git clone https://github.com/Temofejs/Bootcamp
+  341  ls -l
+  342  cd Bootcamp
+  343  ls -l
+  344  ls -la
+  345  cd .git
+  346  ls -la
+  347  cd ..
+  348  commit --help
+  349  git --help
+  350  git commit --help
+  351  git config --global user.email i.timofej.p@gmail.com
+  352  touch test.txt
+  353  git add .
+  354  git commit
+  355  git config --global user.email i.timofej.p@gmail.com
+  356  git commit
+  357  git commit -m "testcommit"
+  358  git config --global user.email "i.timofej.p@gmail.com"
+  359  git commit -m "testcommit"
+  360  ls -lat
+  361  git config --global user.email "i.timofej.p@gmail.com"
+  362  git commit -m "testcommit"
+  363  git config --global user.email "i.timofej.p@gmail.com"
+  364  git status
+  365  git commit -m "testcommit"
+  366  git config --global user.email "i.timofej.p@gmail.com"
+  367  git commit -m "testcommit"
+  368  git config --global user.name "Temofejs"
+  369  git commit -m "testcommit"
+  370  git config --global user.name "Teem0thy"
+  371  git commit -m "testcommit"
+  372  git push
+  373  git push origin main
+  374  history > history_19032021.txt
