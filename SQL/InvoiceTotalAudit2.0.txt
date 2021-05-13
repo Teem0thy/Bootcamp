@@ -1,0 +1,19 @@
+CREATE DEFINER=`root`@`localhost` FUNCTION `InvoiceTotalAudit2.0`(InvoiceId int) RETURNS decimal(10,2)
+    DETERMINISTIC
+BEGIN
+
+declare AuditTotalVar decimal(10,2);
+
+select sum(ii.quantity * ii.unitprice) as AuditTotal
+from invoices i 
+join invoice_items ii on ii.invoiceid=i.invoiceid
+join tracks t on t.trackid = ii.trackid
+join media_types md on md.mediatypeid = t.mediatypeid
+join genres g on g.genreid = t.genreid
+join albums al on al.albumid = t.albumid
+join artists ar on ar.artistid = al.artistid
+where i.invoiceid= InvoiceId into @AuditTotalVar;
+
+return (@AuditTotalVar);
+
+END
