@@ -1,0 +1,20 @@
+CREATE DEFINER=`root`@`localhost` FUNCTION `InvoiceTotalAuditToday`(InvoiceId int) RETURNS decimal(10,2)
+    DETERMINISTIC
+BEGIN
+
+declare TotalTodayVar decimal(10,2);
+
+select sum(ii.quantity * t.unitprice) as TotalToday
+#from invoices i 
+#join invoice_items ii on ii.invoiceid=i.invoiceid
+from  invoice_items ii
+join tracks t on t.trackid = ii.trackid
+#join media_types md on md.mediatypeid = t.mediatypeid
+#join genres g on g.genreid = t.genreid
+#join albums al on al.albumid = t.albumid
+#join artists ar on ar.artistid = al.artistid
+where ii.invoiceid = InvoiceId into @TotalTodayVar;
+
+return (@TotalTodayVar);
+
+END
